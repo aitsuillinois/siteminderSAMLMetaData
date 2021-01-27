@@ -1,0 +1,26 @@
+<EntityDescriptor ID="SM15f2be39e5afada94627aba386048a9df9ad8fe394d" entityID="https://dev.login.uillinois.edu/idp" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+    <IDPSSODescriptor WantAuthnRequestsSigned="true" ID="SM105113de5f3472247bc21b6eb4129c03dc546bc545a1" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <ns1:KeyInfo Id="SM8b7efe47f366dbfd1025ff4ae464fddbc79a98a4836" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#">
+                <ns1:X509Data>
+                    <ns1:X509IssuerSerial>
+                        <ns1:X509IssuerName>CN=dev.login.uillinois.edu,OU=AITS,O=UIUC,L=Urbana,ST=IL,C=US</ns1:X509IssuerName>
+                        <ns1:X509SerialNumber>1519250705</ns1:X509SerialNumber>
+                    </ns1:X509IssuerSerial>
+                    <ns1:X509Certificate>MIIDTTCCAjUCBFqN7REwDQYJKoZIhvcNAQELBQAwazELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAklMMQ8wDQYDVQQHDAZVcmJhbmExDTALBgNVBAoMBFVJVUMxDTALBgNVBAsMBEFJVFMxIDAeBgNVBAMMF2Rldi5sb2dpbi51aWxsaW5vaXMuZWR1MB4XDTE4MDIyMTIyMDUwNVoXDTM4MDIxNjIyMDUwNVowazELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAklMMQ8wDQYDVQQHDAZVcmJhbmExDTALBgNVBAoMBFVJVUMxDTALBgNVBAsMBEFJVFMxIDAeBgNVBAMMF2Rldi5sb2dpbi51aWxsaW5vaXMuZWR1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsUNxddASp0h4ZHknj+jFcwNmVhq6rIJhglU2ZZfZFABiRvDsZR8V67BbYFRl3LP8sknFe++kI2ufFKg8VcLJC0df73GBDXQA2wqp79uG1EnmYuAyLVIKcK+EeDPCTdxrfRZdMcBv3Lzy8Xg0o9eqDgdgxB4s4melcYG6yRchM6SXj2UDJfA5mqt7ELgvdiBNE0W35K8X0tztMhjTcErz18WxGyqxaKiSRgwaJJsRqRtcMujAPgaPXsQa0SrPlIZujREWSMbBY9FT/r8X6QBPf1WVc6MSY8RVWCypyVm5W/FzFI8QBSHNrFU/cwOLy9ReHOUpufoCc0Hrwa3xvgAtrwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAz46go5tWaHjkyyPXnGP5UinKMesuUcNCw92D0pL0IkISVZYxcvnayzlcI3tUwhZeJXsql9FIow0Td1ne+WFXAiJphaIgWFD9q0TlwHwDBl8ILiLva+XE5vuclcPOr2Rys8MCAJwqejeUtuDoItru905L7weZrMbfGFM0xRpNJqRaMidaZ7fjaKpk6ClQ66F1dQk1ssKX3m6Sn1GDcv8G7vZY3oaVXSE8+xoW68NCbo+mrNWOhVNKc9PUeiwcrI04md1RPaUt6QongEHLYUR6IwQioq1grSJSr0z36LA778MxlkS0dzHF6P55bYWVef58Y6BYHONwvDzooyyiRLG1h</ns1:X509Certificate>
+                    <ns1:X509SubjectName>CN=dev.login.uillinois.edu,OU=AITS,O=UIUC,L=Urbana,ST=IL,C=US</ns1:X509SubjectName>
+                </ns1:X509Data>
+            </ns1:KeyInfo>
+        </KeyDescriptor>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev.login.uillinois.edu/affwebservices/public/saml2sso"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev.login.uillinois.edu/affwebservices/public/saml2sso"/>
+        <ns2:Attribute Name="urn:oid:2.16.840.1.113730.3.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns2="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns3:Attribute Name="urn:oid:0.9.2342.19200300.100.1.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns3="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns4:Attribute Name="urn:oid:2.5.4.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns4="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns5:Attribute Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns6:Attribute Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns6="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns7:Attribute Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns7="urn:oasis:names:tc:SAML:2.0:assertion"/>
+        <ns8:Attribute Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" xmlns:ns8="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>
